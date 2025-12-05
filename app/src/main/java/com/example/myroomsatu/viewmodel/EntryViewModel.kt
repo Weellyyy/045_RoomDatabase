@@ -49,7 +49,7 @@ fun DetailSiswa.toSiswa(): Siswa = Siswa(
     telpon = telpon
 )
 
-fun Siswa.toUIStateSiswa(isEntryValid: Boolean = false): UIStateSiswa =
+fun Siswa.toUiStateSiswa(isEntryValid: Boolean = false): UIStateSiswa =
     UIStateSiswa(
         detailSiswa = this.toDetailSiswa(),
         isEntryValid = isEntryValid
